@@ -20,6 +20,7 @@ const Unternehmen = (props) => {
                     <br />
                     <input className="info-input formular-input" type="text" placeholder='Verein , Gemeinützige Gemeinschaft ... ' size='60' onChange={props.unternehmenArt}/>
                     <br />
+                    <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
                     <Link to="/formular3" className=' formular-btn'  >weiter</Link>
                 </form>
             </section>

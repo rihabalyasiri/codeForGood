@@ -17,9 +17,9 @@ class Filter extends Component {
             isJavascript: false,
             isReact: false,
             isNode: false,
-            isProgress:false,
-            isNew:false,
-            isDone:false
+            isProgress: false,
+            isNew: false,
+            isDone: false
         }
     }
 
@@ -57,16 +57,13 @@ class Filter extends Component {
 
     radioChangeHandler = (e) => {
         this.setState({
-            isDone:false,
-            isNew:false,
-            isProgress:false,
+            isDone: false,
+            isNew: false,
+            isProgress: false,
         })
-        console.log(e.target.value)
-        console.log(e.target.checked)
         const name = e.target.value;
         const value = e.target.checked;
-
-        this.setState({[name]:value})
+        this.setState({ [name]: value })
     }
 
 
@@ -77,9 +74,9 @@ class Filter extends Component {
         return (
             <div className="filter-block">
                 <div className="block">
-                    <h2 className="heading">Sortieren nach:</h2>
+                    <h2 className="heading-sortierung">Sortieren nach:</h2>
                     <label htmlFor="projekttypen" className="label">Projekttypen:
-            <select className="input" name="projekttypen" id="projekttypen" onChange={this.projekttypenHandler} value={this.state.projekttypen}>
+                <select className="input" name="projekttypen" id="projekttypen" onChange={this.projekttypenHandler} value={this.state.projekttypen}>
                             <option value="isAllKategorien" >All Kategorien</option>
                             <option value="isAppNative" >App Native</option>
                             <option value="isWebApp" >Web App</option>
@@ -93,7 +90,7 @@ class Filter extends Component {
                     <label htmlFor="progress" className="label">Progress:
               <label htmlFor="" className="radio-label label">  <input type="radio" name="progress" id="progress" onChange={this.radioChangeHandler} value="isProgress" />in Bearbeitung</label>
                         <label htmlFor="" className="radio-label label"> <input type="radio" name="progress" id="progress" value="isDone" onChange={this.radioChangeHandler} />Fertig</label>
-                        <label htmlFor="" className="radio-label label"> <input type="radio" name="progress" id="progress" value="isNeW" onChange={this.radioChangeHandler}  />Neu</label>
+                        <label htmlFor="" className="radio-label label"> <input type="radio" name="progress" id="progress" value="isNeW" onChange={this.radioChangeHandler} />Neu</label>
                     </label>
                     <label htmlFor="aufgabe" className="label input" onChange={this.aufgabenHandler}>Aufgaben:
             <select name="aufgabe" id="aufgabe">

@@ -9,6 +9,8 @@ const Inhalt = (props) => {
             <section className='InhaltSection'>
                 <h2>Noch einige Fragen zum Inhalt</h2>
                 <form className='InhaltForm' action="#">
+                    <p>Projekt Name:</p>
+                    <input className="inhalt-input formular-input" type='text' placeholder='projekt name' onChange={props.projektname} /> <br />
                     <p>Können Sie uns eine grobe Inhaltsstruktur vorgeben?</p>
                     <textarea className="formular-input" rows="4" size='50' cols="50"
                         name="comment" form="usrform" placeholder='z.B Impressum, Kontakt, ...?'
@@ -26,11 +28,10 @@ const Inhalt = (props) => {
                     <button><i className="socialIcon fab fa-facebook-square"></i></button>
                     <button><i className="socialIcon fab fa-instagram"></i></button> */}
                     <p>Wollen sie auch andere Sprachen haben?</p>
-                    <input className="inhalt-input formular-input" type='text' size='50' 
-                    placeholder='z.B EN, FR, TU ...?'
-                    onChange={props.sprachen} /> <br />
-                    <p>Projekt Name:</p>
-                    <input className="inhalt-input formular-input" type='text' placeholder='projekt name' onChange={props.projektname} /> <br />
+                    <input className="inhalt-input formular-input" type='text' size='50'
+                        placeholder='z.B EN, FR, TU ...?'
+                        onChange={props.sprachen} /> <br />
+                    <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
                     <Link to="/formular5" className='formular-btn'>Weiter</Link>
                 </form>
 

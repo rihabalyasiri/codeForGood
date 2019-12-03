@@ -22,6 +22,7 @@ const Gewerbe = (props) => {
                     <textarea className="formular-input" style={{ marginBottom: '30px' }}
                         rows="4" size='50' cols="50" name="comment"
                         form="usrform" placeholder='z.B Verbesserung der UX und UI' onChange={props.projektErwartung} /> <br />
+                    <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
                     <Link to="/formular4" className='formular-btn' >Weiter</Link>
                 </form>
 

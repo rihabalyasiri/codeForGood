@@ -38,13 +38,13 @@ class Header extends Component {
         const value = e.target.value;
         User.username = value;
         this.setState({ username: value })
-        console.log(value)
+      
     }
 
     loginChangePasswordHandler = (e) => {
         const value = e.target.value;
         this.setState({ password: value })
-        console.log(value)
+       
     }
 
 

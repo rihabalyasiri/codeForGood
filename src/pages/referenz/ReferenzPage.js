@@ -9,7 +9,7 @@ import ProjektData from '../../components/admin/Data';
 const ReferenzPage = () => {
     return (
         <div>
-            <h1 className="referenz-heading">Referenz</h1>
+            <h1 className="referenz-heading">Referenzen</h1>
             <div className="referenz-page">
                 <ReferenzTop
                     img={ProjektData[0].img}

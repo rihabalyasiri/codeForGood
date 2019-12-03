@@ -18,6 +18,7 @@ const Anrede = (props) => {
                     onChange={props.change}
                     />
                 </form>
+                <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
                 <Link to="/formular2" className="formular-btn">Weiter</Link>
             </section>
         </article>

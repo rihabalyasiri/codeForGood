@@ -30,7 +30,8 @@ const Vorgaben = (props) => {
 
                 <input className='mustHave formular-input' type="text" placeholder='Andere Sprachen' size='50' /> <br />
                 <br />
-                <Link to="/formular6" className='formular-btn' >Zur vorletzten Seite</Link>
+                <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
+                <Link to="/formular6" className='formular-btn' >Weiter</Link>
             </form>
         </section>
     );

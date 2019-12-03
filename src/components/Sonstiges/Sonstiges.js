@@ -16,7 +16,8 @@ const Sonstiges = (props) => {
                     <input style={{marginBottom:'30px'}} type="Date"  size='60' 
                     onChange={props.deadLine}/>
                     <br />
-                    <Link to="/thanks" className='formular-btn' onClick={props.auftragHandler}>Weiter</Link>
+                    <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
+                    <Link to="/thanks" className='formular-btn' onClick={props.auftragHandler}>Auftrag abschicken</Link>
                 </form>
             </section>
         </article>

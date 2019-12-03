@@ -11,7 +11,7 @@ const Thanks = () => {
                 <p>Sie haben alle nötigen Fragen<br />
                     beantwortet die wir brauchen.</p><br />
                 <p>Vielen Dank für ihre Anfrage<br />
-                    Wir werden ihre Angaben prüen.</p>
+                    Wir werden ihre Angaben prüfen.</p>
 
                 <p style={{ marginBottom: '20px' }}>Wenn Sie ihr Formular ansehen oder bearbeiten wollen<br />
                     Fordern Sie hier einen <Link >Magic Link</Link> an.</p>
