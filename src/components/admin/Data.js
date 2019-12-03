@@ -4,7 +4,7 @@ import faker from 'faker';
 
 const Datas = [
     {
-        id: Date.now(),
+        id: 0,
         gender: 'Herr',
         name: faker.name.lastName(),
         projektname: 'GPS Driver Tracking App',
@@ -15,11 +15,20 @@ const Datas = [
         budget: 150,
         deadLine: '15.11.2020',
         img: './img/software.png',
-        status: 'Done'
+        status: 'Done',
+        projektZiel: '',
+        projektErwartung: '',
+        inhaltStruktur: '',
+        inhalte: '',
+        sonstigeInhalte: '',
+        projektIdeen: '',
+        mockup: '',
+        mustHave: '',
+        sprachen: '',
 
     },
     {
-        id: Date.now(),
+        id: 1,
         gender: 'Frau',
         name: faker.name.lastName(),
         projektname: 'Taxi app project',
@@ -30,10 +39,19 @@ const Datas = [
         budget: 400,
         deadLine: '15.11.2020',
         img: './img/taxi-app.png',
-        status: 'Done'
+        status: 'Done',
+        projektZiel: '',
+        projektErwartung: '',
+        inhaltStruktur: '',
+        inhalte: '',
+        sonstigeInhalte: '',
+        projektIdeen: '',
+        mockup: '',
+        mustHave: '',
+        sprachen: '',
     },
     {
-        id: Date.now(),
+        id: 2,
         gender: 'Frau',
         name: faker.name.lastName(),
         projektname: 'Build an app for hiring workers for temporary tasks',
@@ -56,7 +74,7 @@ const Datas = [
         sprachen: '',
     },
     {
-        id: Date.now(),
+        id: 3,
         gender: 'Frau',
         name: faker.name.lastName(),
         projektname: 'music App to be develop on android only',
@@ -67,7 +85,16 @@ const Datas = [
         budget: 350,
         deadLine: '15.11.2025',
         img: './img/chinese-music-app.png',
-        status: 'Done'
+        status: 'Done',
+        projektZiel: '',
+        projektErwartung: '',
+        inhaltStruktur: '',
+        inhalte: '',
+        sonstigeInhalte: '',
+        projektIdeen: '',
+        mockup: '',
+        mustHave: '',
+        sprachen: '',
     },
 ];
 

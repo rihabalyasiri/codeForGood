@@ -29,7 +29,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    // localStorage.clear()
+    //localStorage.clear()
     if (localStorage.getItem('dataFromUser') === null) {
       localStorage.setItem('dataFromUser', JSON.stringify(Datas))
     }
