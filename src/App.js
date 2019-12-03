@@ -15,6 +15,7 @@ import Formular5 from './pages/formular/Formular5';
 import Formular6 from './pages/formular/Formular6';
 import ThanksFormular from './pages/formular/ThanksFormular';
 import Datas from './components/admin/Data'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -61,6 +62,12 @@ class App extends React.Component {
           <Route path="/formular5" exact component={Formular5} />
           <Route path="/formular6" exact component={Formular6} />
           <Route path="/thanks" exact component={ThanksFormular} />
+          <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+          />
         </Router>
 
       </div>

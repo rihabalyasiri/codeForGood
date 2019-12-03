@@ -18,10 +18,14 @@ input {
 select, input[type="date"] {
     border:1px solid #60D7AC;
     background: white;
-    width: 50%;
+    width: 53%;
     height: 50px;
     outline:none;
     margin-left: 20px;
+}
+
+input[type="date"]  {
+    width:65%;
 }
 
 .block {

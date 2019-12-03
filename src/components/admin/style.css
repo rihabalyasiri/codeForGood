@@ -26,12 +26,7 @@ section{
 .status-popup {
     margin-top: -12px;
 }
-#icon{
-    font-size: 30px;
-    margin-right: 1.7em;
-    margin-top: 2em;
-    cursor: pointer;
-}
+
 button{
     font-size: 1.5em;
     padding: .3em 1em;
@@ -48,23 +43,30 @@ button{
     padding-top: 2em; 
     font-size: 18px;
 }
-.btn{
+
+.icon-block {
+    width:100%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-top: 20px;
 }
-.btn button{
-    margin-left: 3em;
-    margin-top: 3em;
-    margin-bottom: .5em;
-    margin-bottom: 40px;
+
+.del-icon {
+    font-size: 20px;
+    color:#151545;
 }
+
 /* ---------------------------POPUP BTN!--------------------------- */
 .popUp{
     margin-top: 1em;
-    width: 70%;
+    width: 85%;
     height: auto;
     background-color: rgb(235, 235, 235);
+    margin-bottom: 5%;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 .popUp p{
     padding: 1em;
@@ -83,6 +85,7 @@ button{
     height: auto;
     background: rgb(241, 240, 240);
     margin-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 .hide{
@@ -101,7 +104,6 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: ;
 }
 
 .popup-container {
@@ -111,10 +113,24 @@ button{
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 40px;
+    padding-top: 20px;
 }
 
 .admin-board {
     width:60%;
 
+}
+
+.zeigen-btn {
+    margin-left: 35px;
+}
+
+th {
+    background: #151545;
+    color:white
+}
+
+tr:nth-of-type(2n):hover {
+    background: #60D7AC;
 }

@@ -11,13 +11,13 @@ const MainAdmin = (props) => {
                         <div style={(props.data.status === 'Done') ? greenPoint : redPoint}></div>
                         <p className='status'>{props.data.status}</p>
                     </div>
-                    <p>{props.data.deadLine}</p>
+                    <p>{new Date().toLocaleDateString()}</p>
                 </div>
                 <h2 className="heading">{props.data.projektname}</h2>
                 <p className='discription'>{props.data.verwendung}</p>
-                <div className='btn'>
-                    <button onClick={() => props.showPopup(props.data.id)}>Erfahre mehr</button>
-                    <i id='icon' onClick={() => props.deleteAdmin(props.data.id)} className="fas fa-dumpster-fire"></i>
+                <div className='icon-block'>
+                    <button className='zeigen-btn' onClick={() => props.showPopup(props.data.id)}>Erfahre mehr</button>
+                    <i onClick={() => props.deleteAdmin(props.data.id)} className="fas fa-trash-alt del-icon"></i>
                 </div>
             </div>
 
