@@ -43,7 +43,6 @@ class App extends React.Component {
 
       <div className="site">
         < Router>
-          <AdminLandingPage />
           <Switch>
             <Route path="/" exact component={AdminLandingPage} />
             <Route path="/userplatform" exact component={UserPlatform} />
