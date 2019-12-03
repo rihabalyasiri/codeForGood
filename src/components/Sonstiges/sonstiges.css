@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Sonstiges{
+    height: auto;
+    width: 55%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .Sonstiges {
+        width:90%;
+        margin-left: 20px;
+        padding-bottom: 40px;
+    }
+}
+.SonstigesSection{
+    height: auto;
+}
+.SonstigesSection p{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: #042956;
+}
+.SonstigesSection h2{
+    padding-left: 0px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: #042956;
+}
+.SonstigesSection button{
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+.SonstigesSection input{
+    padding: 1em;
+}
+
+.SonstigesInfo{
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}

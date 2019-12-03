@@ -1,0 +1,160 @@
+.header {
+    width:100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo-block {
+    width: 174px;
+    height: 36px;
+    object-fit: contain;
+    margin: 20px 50px;
+    min-width: 50px;
+  
+}
+
+.logo {
+    width:100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 400px)  {
+    .logo-block {
+        width: 50px;
+    }
+}
+
+.nav {
+    width: 30%;
+    height: 100% ;
+    background-color: #60d7ac;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 150px;
+}
+
+@media only screen and (max-width: 500px)  {
+    .nav {
+        height: 40px;
+    }
+
+    .login-btn-block {
+        width:80%;
+        height: 50%;
+    }
+    
+}
+
+.login-btn-block {
+    width:80%;
+    height: 100%;
+}
+
+.login-btn {
+  /* width: 151px; */
+  width:80%;
+  height: 47px;
+  border-radius: 60px;
+  border: solid 1px #161645;
+  color: #161645;
+}
+
+@media only screen and (max-width: 500px)  {
+    .login-btn {
+        width:100px;
+    }
+}
+
+.login-btn:hover {
+    border: solid 1px #161645;
+    background: #161645;
+    color: #fff;
+}
+
+.menu-block {
+    width: 20%;
+    height: 100%;
+    background-color: #161645;
+}
+
+.fa-bars {
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+/********************************/
+
+.login-popup {
+    width: 417px;
+    height: 302px;
+    background-color: #60d7ac;
+    position: relative;
+    right: 70px;
+}
+
+@media only screen and (max-width: 500px)  {
+    .login-popup {
+        padding: 20px;
+    }
+}
+
+
+
+.fa-times {
+    color:white;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.login-input {
+    width: 260px;
+    height: 47px;
+    border-radius: 60px;
+    border: solid 1px #ffffff;
+    color: #0a0f2c;
+    background: transparent;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.login-input::placeholder {
+    color: #0a0f2c;
+    
+}
+
+.block-1 {
+    width:100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-2 {
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.password-vergessen {
+    color:white;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+

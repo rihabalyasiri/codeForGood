@@ -1,0 +1,57 @@
+.filter-block {
+    width:40%;
+    height: 100vh;
+    
+}
+
+.label {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+input {
+    border:1px solid #60D7AC;
+}
+
+select, input[type="date"] {
+    border:1px solid #60D7AC;
+    background: white;
+    width: 40%;
+    height: 50px;
+    outline:none;
+    margin-left: 30px;
+}
+
+.block {
+    width:90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.radio-label input {
+    margin-right: 20px;
+}
+
+input[type="range"] {
+    margin-left: 50px;
+    background: #60D7AC;
+    color:#60D7AC;
+}
+
+.such-btn {
+   padding: 20px 30px;
+   font-size: 25px;
+   margin-left: 100px;
+   background:#3BD7AC ;
+   color:white;
+   margin-top: 30px;
+
+}
+
+

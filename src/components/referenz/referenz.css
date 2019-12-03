@@ -1,0 +1,48 @@
+
+.refernz-block {
+
+    width:100%;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    cursor: pointer;
+    min-width: 300px;
+    min-height: 500px;
+}
+
+.referenz-img-block {
+    width:100%;
+    height: 50%;
+}
+
+.referenz-img{
+    width:100%;
+    height: 100%;
+    object-fit:contain;
+
+}
+
+.referenz-content {
+    width:100%;
+    height: 50%;
+    background: #FAFAFA;
+   
+
+}
+
+.referenz-title {
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+
+
+.referenz-content-padding {
+    width:90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.refernz-description {
+    padding-bottom: 30px;
+}

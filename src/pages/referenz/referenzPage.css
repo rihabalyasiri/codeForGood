@@ -1,0 +1,14 @@
+.referenz-page {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 400px));
+    grid-template-rows: repeat(auto-fit,minmax(300px, 500px));
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 50px;
+    
+}
+
+.referenz-heading {
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.anrede{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    left: 40%;
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 500px)  {
+    .anrede {
+        min-width: 80%;
+        left: 0;
+        margin-left: 40px;
+    }
+
+    .formular-input {
+        width:70%
+    }
+
+  
+
+    
+}
+.anrede section{
+    /* height: 21em; */
+    height: auto;
+}
+.anrede section h2{
+    padding-left: 0px;
+    padding-top: 2em;
+    padding-bottom: .5em;
+    color: #042956;
+}
+.anrede section Link{
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+.anrede section input{
+    padding: 1em;
+}
+.anrede section:nth-of-type(2) button{
+    margin-top: 3em;
+}
+
+.formular-btn {
+    background: #60D7AC;
+    color:#fff;
+    padding: 20px 30px;
+    margin-top: 40px;
+
+}
+
+.formular-btn:hover {
+    background: #0A0F2C;
+    color: white;
+}
+
+.formular-input {
+    margin-bottom: 30px;
+    
+}
+
+.anrede-input:focus {
+    background: #0A0F2C;
+    color: white;
+    outline: none;
+}
+
+.anrede-input {
+   margin-right: 10px;
+    outline: none;
+}
+
+.anrede-btn {
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.anrede-btn-active {
+    background: #0A0F2C;
+    color: white;
+}

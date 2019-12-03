@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/code-for-good/build/static/css/main.9a25a357.chunk.css",
+    "main.js": "/code-for-good/build/static/js/main.0cf5bb2a.chunk.js",
+    "main.js.map": "/code-for-good/build/static/js/main.0cf5bb2a.chunk.js.map",
+    "runtime-main.js": "/code-for-good/build/static/js/runtime-main.6ebc0224.js",
+    "runtime-main.js.map": "/code-for-good/build/static/js/runtime-main.6ebc0224.js.map",
+    "static/js/2.ca31fd3f.chunk.js": "/code-for-good/build/static/js/2.ca31fd3f.chunk.js",
+    "static/js/2.ca31fd3f.chunk.js.map": "/code-for-good/build/static/js/2.ca31fd3f.chunk.js.map",
+    "index.html": "/code-for-good/build/index.html",
+    "precache-manifest.a69ad9edadedbbaf4e8c24fc82bfceac.js": "/code-for-good/build/precache-manifest.a69ad9edadedbbaf4e8c24fc82bfceac.js",
+    "service-worker.js": "/code-for-good/build/service-worker.js",
+    "static/css/main.9a25a357.chunk.css.map": "/code-for-good/build/static/css/main.9a25a357.chunk.css.map",
+    "static/media/TalentPool.css": "/code-for-good/build/static/media/5.fc6c0679.png",
+    "static/media/Aufträge.css": "/code-for-good/build/static/media/6.2226b341.png",
+    "static/media/formular.css": "/code-for-good/build/static/media/superbild.30545c07.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ebc0224.js",
+    "static/js/2.ca31fd3f.chunk.js",
+    "static/css/main.9a25a357.chunk.css",
+    "static/js/main.0cf5bb2a.chunk.js"
+  ]
+}

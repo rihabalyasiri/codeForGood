@@ -1,0 +1,70 @@
+.Inhalt {
+    height: auto;
+    width: 55%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .Inhalt {
+        width:90%;
+        margin-left: 20px;
+    }
+   
+}
+
+.InhaltSection {
+    height: auto;
+}
+
+.InhaltSection h2 {
+    padding-left: 0px;
+    padding-top: 2em;
+    color: #042956;
+}
+
+.InhaltSection button {
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+.InhaltForm {
+    padding: 1.5em;
+}
+
+.InhaltForm>p {
+    padding: 1em;
+    color: #042956;
+}
+
+.InhaltSubmit {
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.socialIcon{
+    font-size: 2em;
+}
+
+.inhalt-input {
+    margin: 40px 0;
+}
+
+input {
+    padding: 10px 20px;
+}
+
+.formular-input {
+    margin-top: -20px;
+}

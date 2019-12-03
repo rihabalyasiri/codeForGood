@@ -1,0 +1,48 @@
+.gewerbe{
+    height: auto;
+    width: 55%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .gewerbe {
+        width:90%;
+        margin-left: 20px;
+    }
+}
+.gewerbeSection{
+    height: auto;
+}
+
+.gewerbeSection h2{
+    padding-left: 0px;
+    padding-top: 2em;
+    color: #042956;
+}
+.unternehmenSection button{
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}
+.gewerbeForm{
+    padding: 1.5em;
+}
+.gewerbeForm>p{
+    padding: 1em;
+    color: #042956;
+}
+.gewerbeSubmit{
+        padding: 1em 4em;
+        border-radius: 2px;
+        margin: 1em;
+        background: #00DEAC;
+        color: #042956;
+        font-size: .8em;
+        font-weight: bolder;
+}

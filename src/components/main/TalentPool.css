@@ -1,0 +1,77 @@
+
+
+.talentpool-img {
+    box-shadow: 10px 10px #00DEAC;
+    width:26vw;
+    height:30vh;
+    background: url(../../img/5.png) no-repeat center/cover;
+    min-width: 300px;
+}
+
+
+.button1{
+    box-shadow: 0px 1.5px #00DEAC;
+    margin-top: 15%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;  
+    
+}
+.heading1{
+
+ display: flex;
+ justify-content: space-evenly;
+ align-items: right;
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .heading1 {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }  
+    
+    .section1 {
+        margin: 20vh 0;
+       
+    }
+
+    .talentpool-img {
+        margin-top: 20vh;
+    }
+}
+
+
+.section1{
+    width: 70%;
+    height: 40vh;
+    margin: 10vh auto;
+
+}
+
+.block {
+    width: 50% !important;
+height: 100%;
+margin-top: 3%;
+margin-right:15% ;
+margin-left: 10%;
+min-width: 300px;
+
+}
+
+.link {
+    font-size: 1.5em;
+    padding: .3em 1em;
+    background: #3dd7ac;
+    color: #fafafa;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.link:hover {
+    background:#0A0F2C ;
+    color:white;
+}

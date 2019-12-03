@@ -1,0 +1,40 @@
+.newBriefing{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.newBriefing h2{
+    padding: 3em;
+    color: #00DEAC;
+}
+
+@media only screen and (max-width: 500px) {
+    .newBriefing h2 {
+        padding: 1em;
+    }
+}
+.newBriefing button{
+    background: #042956;
+    border-radius: 2px;
+    margin: 2em;
+}
+.newBriefing p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.briefing-btn {
+   border-radius: 50px;
+}
+
+.briefing-btn:hover {
+    background: #042956;
+    color: white;
+}
+
+.fa-plus {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 5px;
+}

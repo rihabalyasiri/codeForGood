@@ -1,0 +1,58 @@
+
+.img2{
+    height:30vh;
+    width: 20%;
+    box-shadow: 10px 10px #00DEAC;
+    width:26vw;
+
+}
+.button2{
+    box-shadow: 0px 1.5px #00DEAC;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+     
+    
+}
+.heading2{
+
+ display: flex;
+ justify-content: flex-start;
+ align-items: right;
+ padding: 80px 90px;
+ margin-top: 1%;
+ display: flex;
+    justify-content: space-around;
+}
+.section2{
+    width: 70%;
+    height: 40vh;
+    margin: 0 auto;
+    
+}
+.auftrag{
+width:50%;
+height: 100%;
+margin-top: 3%;
+margin-right:10% ;
+}
+
+.img-block {
+    order:1
+}
+
+.link {
+    font-size: 1.5em;
+    padding: .3em 1em;
+    background: #3dd7ac;
+    color: #fafafa;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.link:hover {
+    background:#0A0F2C ;
+    color:white;
+}

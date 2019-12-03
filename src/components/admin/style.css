@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.article{
+    margin-left: 40%;
+    margin-top: 1em;
+    width: 50%;
+    height: 20em;
+    background-color: rgb(185, 181, 181);
+}
+section{
+    height: auto;
+}
+.pointContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.pointContainer2{
+    display: flex;
+}
+.status{
+    padding-left: 1em;
+}
+.status-popup {
+    margin-top: -12px;
+}
+#icon{
+    font-size: 30px;
+    margin-right: 1.7em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+button{
+    font-size: 1.5em;
+    padding: .3em 1em;
+    background: #3dd7ac;
+    color: #fafafa;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.discription{
+    padding-left: 40px;
+    padding-right: em;  
+    padding-top: 2em; 
+    font-size: 18px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.btn button{
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-bottom: .5em;
+    margin-bottom: 40px;
+}
+/* ---------------------------POPUP BTN!--------------------------- */
+.popUp{
+    margin-top: 1em;
+    width: 70%;
+    height: auto;
+    background-color: rgb(235, 235, 235);
+}
+.popUp p{
+    padding: 1em;
+}
+.show{
+   display: block;
+}
+
+.hidden {
+    display: none;
+}
+/* -----------------------HIDE--------------------- */
+.normal{
+    display: block;
+    width:70%;
+    height: auto;
+    background: rgb(241, 240, 240);
+    margin-bottom: 30px;
+
+}
+.hide{
+    display: none;
+}
+
+.admin-platform {
+    width:60%;
+    height: 100%;
+}
+
+.auftrag-container {
+    width:90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: ;
+}
+
+.popup-container {
+    width:90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.admin-board {
+    width:60%;
+
+}
