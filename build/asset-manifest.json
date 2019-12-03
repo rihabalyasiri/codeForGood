@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/codeForGood/build/static/css/main.4bfc8ec6.chunk.css",
-    "main.js": "/codeForGood/build/static/js/main.8c34d2e4.chunk.js",
-    "main.js.map": "/codeForGood/build/static/js/main.8c34d2e4.chunk.js.map",
+    "main.css": "/codeForGood/build/static/css/main.13e4fa59.chunk.css",
+    "main.js": "/codeForGood/build/static/js/main.5ac4692a.chunk.js",
+    "main.js.map": "/codeForGood/build/static/js/main.5ac4692a.chunk.js.map",
     "runtime-main.js": "/codeForGood/build/static/js/runtime-main.e9de72f4.js",
     "runtime-main.js.map": "/codeForGood/build/static/js/runtime-main.e9de72f4.js.map",
-    "static/js/2.9b81d607.chunk.js": "/codeForGood/build/static/js/2.9b81d607.chunk.js",
-    "static/js/2.9b81d607.chunk.js.map": "/codeForGood/build/static/js/2.9b81d607.chunk.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/codeForGood/build/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.7c01afd0.chunk.js": "/codeForGood/build/static/js/2.7c01afd0.chunk.js",
+    "static/js/2.7c01afd0.chunk.js.map": "/codeForGood/build/static/js/2.7c01afd0.chunk.js.map",
     "index.html": "/codeForGood/build/index.html",
-    "precache-manifest.6887148f72fb76d440700ab154d861f1.js": "/codeForGood/build/precache-manifest.6887148f72fb76d440700ab154d861f1.js",
+    "precache-manifest.1d312fc41213063baf8fadc7501f7961.js": "/codeForGood/build/precache-manifest.1d312fc41213063baf8fadc7501f7961.js",
     "service-worker.js": "/codeForGood/build/service-worker.js",
-    "static/css/main.4bfc8ec6.chunk.css.map": "/codeForGood/build/static/css/main.4bfc8ec6.chunk.css.map",
+    "static/css/2.17e5ed98.chunk.css.map": "/codeForGood/build/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.13e4fa59.chunk.css.map": "/codeForGood/build/static/css/main.13e4fa59.chunk.css.map",
     "static/media/TalentPool.css": "/codeForGood/build/static/media/5.fc6c0679.png",
     "static/media/Aufträge.css": "/codeForGood/build/static/media/6.2226b341.png",
     "static/media/formular.css": "/codeForGood/build/static/media/superbild.30545c07.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e9de72f4.js",
-    "static/js/2.9b81d607.chunk.js",
-    "static/css/main.4bfc8ec6.chunk.css",
-    "static/js/main.8c34d2e4.chunk.js"
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.7c01afd0.chunk.js",
+    "static/css/main.13e4fa59.chunk.css",
+    "static/js/main.5ac4692a.chunk.js"
   ]
 }
