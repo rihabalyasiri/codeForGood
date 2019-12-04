@@ -11,14 +11,20 @@ class Formular extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            anredeStyle:'anrede-input'
+            anredeStyle: 'anrede-input',
+            activeStyle: {
+                background: '#3A3D55',
+                color: '#fff'
+            },
+            isAnredeClicked: true
         }
     }
 
     anredeHandler = (e) => {
         let { value } = e.target;
         ProjektData.gender = value;
-        this.setState({anredeStyle:'anrede-input'}) 
+        this.setState({ anredeStyle: 'anrede-input' })
+        this.setState({ isAnredeClicked: !this.state.isAnredeClicked })
     }
 
     nameHandler = (e) => {
@@ -26,7 +32,7 @@ class Formular extends React.Component {
         ProjektData.name = value;
     }
 
-  
+
 
 
 
@@ -38,7 +44,9 @@ class Formular extends React.Component {
                     <Kategorie firstActive=" active" />
                     <Anrede click={this.anredeHandler}
                         change={this.nameHandler}
-                        anredeStyle={this.state.anredeStyle} />
+                        anredeStyle={this.state.anredeStyle}
+                        isAnredeClicked={this.state.isAnredeClicked}
+                        activeStyle={this.state.activeStyle} />
                 </div>
             </div>
 

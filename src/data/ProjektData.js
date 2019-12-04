@@ -19,7 +19,7 @@ const ProjektData =
     deadLine: '',
     status:'New',
     projektname:'',
-    id: Date.now()
+    id: ''
 }
 
 export default ProjektData;

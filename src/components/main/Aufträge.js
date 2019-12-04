@@ -15,7 +15,7 @@ const Aufträge = (props) => {
                 <div className="auftrag">
                     <h1 >{props.title}</h1>
                     <p className="auftrag-description">{props.description}</p>
-                    {(User.username.toLowerCase() === 'sergio cardeal')?<NavLink to="/adminplatform"  className="link">Erfahren Mehr</NavLink>:<NavLink to="/userplatform" className="link">Erfahren Mehr</NavLink>}
+                    {(User.username.toLowerCase() === 'sergio cardeal')?<NavLink to="/adminplatform"  className="link">Erfahre mehr</NavLink>:<NavLink to="/userplatform" className="link">Erfahre mehr</NavLink>}
                 </div>
 
             </article>

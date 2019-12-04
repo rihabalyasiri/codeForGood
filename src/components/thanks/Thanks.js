@@ -15,7 +15,7 @@ const Thanks = () => {
 
                 <p style={{ marginBottom: '20px' }}>Wenn Sie ihr Formular ansehen oder bearbeiten wollen<br />
                     Fordern Sie hier einen <Link >Magic Link</Link> an.</p>
-                <Link to="/userplatform" className='SonstigesInfo'>Ok</Link>
+                <Link to="/userplatform" className='SonstigesInfo formular-btn'>Ok</Link>
             </article>
         </section>
     );

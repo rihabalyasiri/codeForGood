@@ -17,7 +17,7 @@ const Sonstiges = (props) => {
                     onChange={props.deadLine}/>
                     <br />
                     <Link to="/userplatform" className="formular-btn">Abbrechen</Link>
-                    <Link to="/thanks" className='formular-btn' onClick={props.auftragHandler}>Auftrag abschicken</Link>
+                    <Link to="/thanks" className='formular-btn' onClick={props.auftragHandler}>Antrag abschicken</Link>
                 </form>
             </section>
         </article>

@@ -11,6 +11,7 @@ class Formular6 extends React.Component {
     }
 
     auftragHandler = () => {
+        ProjektData.id = Date.now()
         let DataFromUser =JSON.parse(localStorage.getItem('dataFromUser'));
         DataFromUser.unshift(ProjektData);
         localStorage.setItem('dataFromUser',JSON.stringify(DataFromUser));
